@@ -1,0 +1,25 @@
+"D:\software\clion\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\lidan\CLionProjects\eulerOperator
+-- include LidanBase.cmake
+-- include LidanBuild.cmake
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/data;
+-- C:/Users/lidan/CLionProjects/eulerOperator/data/halfEdge.cppC:/Users/lidan/CLionProjects/eulerOperator/data/halfEdge.hC:/Users/lidan/CLionProjects/eulerOperator/data/vector_data.cppC:/Users/lidan/CLionProjects/eulerOperator/data/vector_data.h
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/operator;
+-- C:/Users/lidan/CLionProjects/eulerOperator/operator/Build.cppC:/Users/lidan/CLionProjects/eulerOperator/operator/Build.hC:/Users/lidan/CLionProjects/eulerOperator/operator/Writer.cppC:/Users/lidan/CLionProjects/eulerOperator/operator/Writer.hC:/Users/lidan/CLionProjects/eulerOperator/operator/operator.cppC:/Users/lidan/CLionProjects/eulerOperator/operator/operator.h
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/render;
+-- C:/Users/lidan/CLionProjects/eulerOperator/render/Shader.cppC:/Users/lidan/CLionProjects/eulerOperator/render/Shader.hC:/Users/lidan/CLionProjects/eulerOperator/render/callback.hC:/Users/lidan/CLionProjects/eulerOperator/render/camera.hC:/Users/lidan/CLionProjects/eulerOperator/render/gl_tools.hC:/Users/lidan/CLionProjects/eulerOperator/render/glfw_tools.hC:/Users/lidan/CLionProjects/eulerOperator/render/logging.hC:/Users/lidan/CLionProjects/eulerOperator/render/render.cppC:/Users/lidan/CLionProjects/eulerOperator/render/render.hC:/Users/lidan/CLionProjects/eulerOperator/render/shader_common.hC:/Users/lidan/CLionProjects/eulerOperator/render/triangulation.cppC:/Users/lidan/CLionProjects/eulerOperator/render/triangulation.hC:/Users/lidan/CLionProjects/eulerOperator/render/util.h
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/external/glad/;
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glad//include/KHR/khrplatform.hC:/Users/lidan/CLionProjects/eulerOperator/external/glad//include/glad/glad.hC:/Users/lidan/CLionProjects/eulerOperator/external/glad//src/glad.cpp
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles;
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/shapes.ccC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/shapes.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/utils.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/poly2tri.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/advancing_front.ccC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/advancing_front.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/cdt.ccC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/cdt.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep.ccC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep.hC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep_context.ccC:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep_context.h
+-- ----------
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/ TRUE glfw3 
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glfw
+-- Add C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include;
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include/GLFW/glfw3.hC:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include/GLFW/glfw3native.h
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glfw
+-- include C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include/}
+-- C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/lib-vc2019/glfw3
+-- link C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/lib-vc2019/glfw3.dll
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug

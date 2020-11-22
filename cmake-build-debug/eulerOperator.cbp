@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="eulerOperator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eulerOperator">
+				<Option output="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/eulerOperator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_BASIC_VIEWER"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/data"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/operator"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/render"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glad/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glm"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 eulerOperator"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eulerOperator/fast">
+				<Option output="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/eulerOperator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_BASIC_VIEWER"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/data"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/operator"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/render"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glfw/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glad/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/glm"/>
+					<Add directory="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 eulerOperator/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\eulerOperator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/data/halfEdge.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/data/halfEdge.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/data/vector_data.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/data/vector_data.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/glad/include/KHR/khrplatform.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/glad/include/glad/glad.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/glad/src/glad.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/shapes.cc">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/shapes.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/common/utils.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/poly2tri.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/advancing_front.cc">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/advancing_front.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/cdt.cc">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/cdt.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep.cc">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep_context.cc">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/external/poly2triangles/sweep/sweep_context.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/main.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/Build.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/Build.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/Writer.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/Writer.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/operator.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/operator/operator.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/Shader.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/Shader.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/callback.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/camera.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/gl_tools.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/glfw_tools.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/logging.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/render.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/render.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/shader_common.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/triangulation.cpp">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/triangulation.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/render/util.h">
+			<Option target="eulerOperator"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/cmake/LidanBase.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/eulerOperator/cmake/LidanBuild.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

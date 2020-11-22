@@ -1,0 +1,133 @@
+{
+	"BUILD_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/CGAL_Qt5_moc_and_resources_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator",
+	"CMAKE_EXECUTABLE" : "D:/software/clion/CLion 2020.2.3/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_SOURCE_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/software/cgal/include/CGAL/Qt/DemosMainWindow.h",
+			"Mu",
+			"VUPOM7TIB3/moc_DemosMainWindow.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/GraphicsItem.h",
+			"Mu",
+			"VUPOM7TIB3/moc_GraphicsItem.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/GraphicsViewInput.h",
+			"Mu",
+			"VUPOM7TIB3/moc_GraphicsViewInput.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/GraphicsViewNavigation.h",
+			"Mu",
+			"VUPOM7TIB3/moc_GraphicsViewNavigation.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/camera.h",
+			"Mu",
+			"VUPOM7TIB3/moc_camera.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/frame.h",
+			"Mu",
+			"VUPOM7TIB3/moc_frame.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/image_interface.h",
+			"Mu",
+			"VUPOM7TIB3/moc_image_interface.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/keyFrameInterpolator.h",
+			"Mu",
+			"VUPOM7TIB3/moc_keyFrameInterpolator.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/manipulatedCameraFrame.h",
+			"Mu",
+			"VUPOM7TIB3/moc_manipulatedCameraFrame.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/manipulatedFrame.h",
+			"Mu",
+			"VUPOM7TIB3/moc_manipulatedFrame.cpp"
+		],
+		[
+			"D:/software/cgal/include/CGAL/Qt/qglviewer.h",
+			"Mu",
+			"VUPOM7TIB3/moc_qglviewer.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/CGAL_Qt5_moc_and_resources_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/CGAL_Qt5_moc_and_resources_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ALL_DYN_LINK=1",
+		"CGAL_USE_BASIC_VIEWER",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGL_LIB",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug",
+		"C:/Users/lidan/CLionProjects/eulerOperator/data",
+		"C:/Users/lidan/CLionProjects/eulerOperator/operator",
+		"C:/Users/lidan/CLionProjects/eulerOperator/render",
+		"D:/software/cgal/auxiliary/gmp/include",
+		"D:/software/cgal/include",
+		"D:/software/boost_1_71_0_install",
+		"D:/software/anaconda/Library/include/qt",
+		"D:/software/anaconda/Library/include/qt/QtWidgets",
+		"D:/software/anaconda/Library/include/qt/QtGui",
+		"D:/software/anaconda/Library/include/qt/QtANGLE",
+		"D:/software/anaconda/Library/include/qt/QtCore",
+		"D:/software/anaconda/Library/mkspecs/win32-msvc",
+		"D:/software/anaconda/Library/include/qt/QtOpenGL",
+		"D:/software/anaconda/Library/include/qt/QtSvg",
+		"D:/software/anaconda/Library/include/qt/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/qrc_CGAL.cpp",
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/qrc_File.cpp",
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/qrc_Input.cpp",
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/qrc_Triangulation_2.cpp",
+		"C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/ui_ImageInterface.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 12,
+	"PARSE_CACHE_FILE" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/CMakeFiles/CGAL_Qt5_moc_and_resources_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/software/anaconda/Library/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "C:/Users/lidan/CLionProjects/eulerOperator/cmake-build-debug/CMakeFiles/CGAL_Qt5_moc_and_resources_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : [],
+	"VERBOSITY" : 0
+}
